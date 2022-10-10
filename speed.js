@@ -1,6 +1,6 @@
 document.querySelector("button").addEventListener("click",(e)=>{
     var imageLink = 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Entrance_of_Botanical_Garden_of_NMNS%2C_Taichung.jpg',
-    downloadSize = 18653748,
+    downloadSize = 22000000,
     time_start, time_end,
     downloadSrc = new Image();
     document.querySelector(".loader-content").classList.add('hide');
